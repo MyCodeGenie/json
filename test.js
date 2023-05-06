@@ -1,6 +1,34 @@
-fetch('../json/average.json')
-  .then(response => response.json())
-  .then(data     => console.log(data))
-  .catch(error   => console.error(error));
+const array = 
+  {
+    student1: {
+      name  : 'John Doe',
+      scores: {
+        korean : 80,
+        math   : 90,
+        english: 70,
+      },
+    },
+  },
+  {
+    student2: {
+      name  : 'Jane Doe1',
+      scores: {
+        korean : 70,
+        math   : 80,
+        english: 80,
+      },
+    },
+  },
+  {
+    student3: {
+      name  : 'Bob Smith',
+      scores: {
+        korean : 80,
+        math   : 70,
+        english: 70,
+      },
+    },
+  };
 
-  console.log(1)
+
+// console.log(array[1]);
