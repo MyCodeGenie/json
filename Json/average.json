@@ -10,7 +10,7 @@
     "student2": {
         "name"  : "Jane Doe",
         "scores": {
-            "korean" : 80,
+            "korean" : 70,
             "math"   : 80,
             "english": 80
         }
